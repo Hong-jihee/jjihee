@@ -1,12 +1,12 @@
 title:              "Story of Brand"
 tagline:            "적게 쓰고 떠들썩하게 만드는 브랜드 마케팅"
 email:              "jihee9609@naver.com"
-description:        "차별화된 브랜딩을 위한 디지털 마케팅 + 경쟁력 있는 브랜드 분석 및 추천"
+description:        "차별화된 브랜딩을 위한 마케팅 + 경쟁력 있는 브랜드 분석 및 추천"
 author:             "지희"
 baseurl:            "/"
 url:                "https://hjipong.com"
 locale:             "ko_KR"
-thumbnail:          "/img/thumbnail.jpg"
+thumbnail:          "/img/thumb.jpg"
 
 # Social Profiles
 twitter_username:   twitter_username
@@ -21,3 +21,6 @@ paginate:           5
 paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-paginate
+# 블로그 disqus shortname
+disqus:
+  shortname: hjipong-com
